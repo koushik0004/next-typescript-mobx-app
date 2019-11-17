@@ -1,4 +1,4 @@
-# Landing page template
+# Next.js App index page template
 
 Starting template with:
 - React.js
