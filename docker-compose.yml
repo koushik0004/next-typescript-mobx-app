@@ -1,0 +1,10 @@
+version: '3.1'
+
+services:
+  nexttsmobx:
+    build:
+      context: .
+    ports:
+      - "4001:4000"
+    volumes:
+      - .:/www/app
