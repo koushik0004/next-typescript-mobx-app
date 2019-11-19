@@ -1,19 +1,22 @@
-import '../css/index.scss';
+import Layout from './template/MyLayout';
 import HelloWorld from '../components/HelloWorld';
 
 const Index = () => {
   return (
-    <div className="page">
-      <HelloWorld />
+    <Layout title="Home">
+      <div className="page">
+        <h2>Initial Landing Page</h2>
+        <HelloWorld />
 
-      <style jsx>{`
-        .page {
-          margin-top: 10vh;
-          font-family: monospace;
-          text-align: center;
-        }
-      `}</style>
-    </div>
+        <style jsx>{`
+          .page {
+            margin-top: 10vh;
+            font-family: monospace;
+            text-align: center;
+          }
+        `}</style>
+      </div>
+    </Layout>
   );
 };
 
