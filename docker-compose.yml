@@ -8,3 +8,5 @@ services:
       - "4001:4000"
     volumes:
       - .:/www/app
+    # command: 'tail -f /dev/null'
+    # tty: true
